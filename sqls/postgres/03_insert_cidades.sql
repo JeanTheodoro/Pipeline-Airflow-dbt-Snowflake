@@ -1,0 +1,22 @@
+INSERT INTO cidades (cidade, id_estados) VALUES
+('São Paulo', 1),
+('Campinas', 1),
+('Araraquara', 1),
+('Ribeirão Preto', 1),
+('Santos', 1),
+('São José dos Campos', 1),
+('Sorocaba', 1),
+('Bauru', 1),
+('São Carlos', 1),
+('Jundiaí', 1),
+
+('Belo Horizonte', 2),
+('Uberlândia', 2),
+('Uberaba', 2),
+('Contagem', 2),
+('Betim', 2),
+('Juiz de Fora', 2),
+('Montes Claros', 2),
+('Divinópolis', 2),
+('Ipatinga', 2),
+('Sete Lagoas', 2);

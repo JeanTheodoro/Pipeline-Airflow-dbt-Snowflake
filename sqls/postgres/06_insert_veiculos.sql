@@ -1,0 +1,28 @@
+INSERT INTO veiculos
+(fabricante, nome, tipo, ano_modelo, combustivel, cambio, cor, preco_base, ativo, id_concessionarias)
+VALUES
+('Chevrolet', 'Onix', 'Hatch', 2024, 'Flex', 'Manual', 'Branco', 85000, TRUE, 1),
+('Chevrolet', 'Onix Plus', 'Sedan', 2024, 'Flex', 'Automatico', 'Prata', 92000, TRUE, 1),
+('Chevrolet', 'Tracker', 'SUV', 2024, 'Flex', 'Automatico', 'Preto', 125000, TRUE, 1),
+('Chevrolet', 'Cruze', 'Sedan', 2023, 'Flex', 'Automatico', 'Cinza', 135000, TRUE, 1),
+('Honda', 'Civic', 'Sedan', 2024, 'Flex', 'Automatico', 'Preto', 155000, TRUE, 1),
+('Honda', 'City', 'Sedan', 2024, 'Flex', 'Automatico', 'Branco', 115000, TRUE, 1),
+('Honda', 'HR-V', 'SUV', 2024, 'Flex', 'Automatico', 'Prata', 145000, TRUE, 1),
+('Toyota', 'Corolla', 'Sedan', 2024, 'Flex', 'Automatico', 'Preto', 160000, TRUE, 1),
+('Toyota', 'Corolla Cross', 'SUV', 2024, 'Flex', 'Automatico', 'Branco', 175000, TRUE, 1),
+('Toyota', 'Yaris', 'Hatch', 2023, 'Flex', 'Automatico', 'Vermelho', 110000, TRUE, 1),
+('Nissan', 'Kicks', 'SUV', 2024, 'Flex', 'Automatico', 'Prata', 120000, TRUE, 1),
+('Nissan', 'Sentra', 'Sedan', 2024, 'Flex', 'Automatico', 'Preto', 145000, TRUE, 1),
+('Fiat', 'Argo', 'Hatch', 2023, 'Flex', 'Manual', 'Branco', 85000, TRUE, 1),
+('Fiat', 'Cronos', 'Sedan', 2024, 'Flex', 'Automatico', 'Cinza', 98000, TRUE, 1),
+('Fiat', 'Toro', 'Pickup', 2024, 'Diesel', 'Automatico', 'Preto', 150000, TRUE, 1),
+('Jeep', 'Compass', 'SUV', 2024, 'Flex', 'Automatico', 'Preto', 185000, TRUE, 1),
+('Jeep', 'Renegade', 'SUV', 2023, 'Flex', 'Automatico', 'Vermelho', 140000, TRUE, 1),
+('Volkswagen', 'T-Cross', 'SUV', 2024, 'Flex', 'Automatico', 'Branco', 135000, TRUE, 1),
+('Volkswagen', 'Polo', 'Hatch', 2024, 'Flex', 'Manual', 'Prata', 90000, TRUE, 1),
+('Volkswagen', 'Virtus', 'Sedan', 2024, 'Flex', 'Automatico', 'Cinza', 105000, TRUE, 1),
+('Volkswagen', 'Nivus', 'SUV', 2024, 'Flex', 'Automatico', 'Preto', 130000, TRUE, 1),
+('Toyota', 'Hilux', 'Pickup', 2024, 'Diesel', 'Automatico', 'Branco', 250000, TRUE, 1),
+('Ford', 'Ranger', 'Pickup', 2024, 'Diesel', 'Automatico', 'Preto', 240000, TRUE, 1),
+('Ford', 'Ka', 'Hatch', 2023, 'Flex', 'Manual', 'Vermelho', 80000, TRUE, 1),
+('Ford', 'Fusion', 'Sedan', 2022, 'Flex', 'Automatico', 'Prata', 140000, TRUE, 1);
