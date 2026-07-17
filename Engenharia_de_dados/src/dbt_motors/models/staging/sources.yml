@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+
+  - name: raw
+
+    database: TUPA_MOTORS
+
+    schema: RAW
+
+    tables:
+
+      - name: clientes
+
+      - name: concessionarias
+
+      - name: vendedores
+
+      - name: veiculos
+
+      - name: vendas
+
+      - name: avaliacoes_clientes
+
+      - name: cidades
+    
+      - name: estados
+    

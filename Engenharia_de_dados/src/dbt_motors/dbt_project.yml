@@ -1,0 +1,30 @@
+name: 'dbt_motors'
+version: '1.0.0'
+
+profile: 'dbt_motors'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_motors:
+
+    staging:
+      +materialized: view
+      +schema: BRONZE
+
+    intermediate:
+      +materialized: view
+      +schema: SILVER
+
+    marts:
+      +materialized: table
+      +schema: GOLD
