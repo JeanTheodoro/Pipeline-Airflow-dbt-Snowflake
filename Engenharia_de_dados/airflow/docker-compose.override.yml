@@ -1,0 +1,12 @@
+services:
+  scheduler:
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ../src/dbt_motors:/dbt
+    env_file:
+      - ../src/.env
+
+  api-server:
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ../src/dbt_motors:/dbt
